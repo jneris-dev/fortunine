@@ -10,5 +10,10 @@ export default StyleSheet.create({
     },
     title: {
         fontFamily: fonts.heading
+    },
+    loading: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
     }
 })
