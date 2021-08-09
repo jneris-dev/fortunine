@@ -1139,10 +1139,10 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
-"@expo-google-fonts/palanquin@^0.2.0":
+"@expo-google-fonts/patrick-hand-sc@^0.2.0":
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@expo-google-fonts/palanquin/-/palanquin-0.2.0.tgz#9bfa8cb2081605986bec8d4b57c430216bde8bb6"
-  integrity sha512-HGZTpmzeClk21gX27ZmpR18Jy2k3gac51j5Zmj1rqc9fz2BmVLD2vQEqS34dXADAMcAD6R3WAuMUgUo61+O0eg==
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/patrick-hand-sc/-/patrick-hand-sc-0.2.0.tgz#8cbf690d9128fa124df37c53ce1b7ef7b5831797"
+  integrity sha512-CcTjjoiOdTKvEJb2TJX3i3jbgTqpiJBt5e9F+wpBoeX2yp1+ChZvo5yyua6k+OpJ8lJMNijG7Mr0Fa8LAz3P5A==
 
 "@expo/config-plugins@2.0.4":
   version "2.0.4"
@@ -4950,6 +4950,13 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-native-animatable@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/react-native-animatable/-/react-native-animatable-1.3.3.tgz#a13a4af8258e3bb14d0a9d839917e9bb9274ec8a"
+  integrity sha512-2ckIxZQAsvWn25Ho+DK3d1mXIgj7tITkrS4pYDvx96WyOttSvzzFeQnM2od0+FUMzILbdHDsDEqZvnz1DYNQ1w==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-native-gesture-handler@^1.10.3:
   version "1.10.3"
