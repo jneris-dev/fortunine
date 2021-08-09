@@ -23,9 +23,7 @@ import styles from './src/libs/styles';
 import colors from './src/libs/colors';
 
 export default function App() {
-	const [fontsLoaded] = useFonts({
-		PatrickHandSC_400Regular
-	});
+	const [fontsLoaded] = useFonts({ PatrickHandSC_400Regular });
 	const [loading, setLoading] = useState(false)
 	const [advice, setAdvice] = useState('')
 	const [author, setAuthor] = useState('')
@@ -33,7 +31,7 @@ export default function App() {
 	async function loadAdvice() {
 		setLoading(true)
 
-		fetch(`https://api.quotable.io/random?maxLength=70`)
+		fetch(`https://api.quotable.io/random?tags=love|inspirational|success|life|wisdom|proverb&maxLength=50`)
 			.then(response => { return response.json() })
 			.then(data => {
 				const content = data.content
@@ -101,7 +99,7 @@ export default function App() {
 							<MaterialCommunityIcons name="refresh" size={25} color={colors.background} />
 						</TouchableOpacity>
 						<TouchableOpacity
-							onPress={() => Linking.openURL('whatsapp://send?text=' + advice + '- Fortunine App')}
+							onPress={() => Linking.openURL('whatsapp://send?text=' + advice + '- *Fortunine App*')}
 							style={styles.button}
 						>
 							<MaterialCommunityIcons name="whatsapp" size={25} color={colors.background} />
